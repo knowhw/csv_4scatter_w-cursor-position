@@ -31,10 +31,10 @@ def csv_4scatter_w(x,y):
 				print(position.strip())
 			
 			
-while 1:
+while 1.:
 	
 	x, y = pyautogui.position()
 	# mouse imlecinin ekrandaki konumu
 	
 	csv_4scatter_w(x,y)
-	time.sleep(.1)
+	time.sleep(.3)
