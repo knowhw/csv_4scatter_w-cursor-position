@@ -10,10 +10,6 @@ path = os.path.join(workdir, "data.csv")
 import pyautogui
 import time
 
-
-
-
-
 def csv_4scatter_w(x,y):
 	exists = None if not os.path.exists(path) else 1.
 	
