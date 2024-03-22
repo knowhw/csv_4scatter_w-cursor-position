@@ -10,10 +10,6 @@ import pyautogui
 import time
 
 
-
-
-
-
 def csv_4scatter_w(x,y):
 	exists = None if not os.path.exists(path) else 1.
 	
@@ -27,7 +23,8 @@ def csv_4scatter_w(x,y):
 		else:
 			if "%s,%s\n" % (x,y) != data.readlines() [-1]: data.write("%s,%s\n" % (x,y))
 			
-while 1:
+
+while 1.:
 	
 	x, y = pyautogui.position()
 	# mouse imlecinin ekrandaki konumu
