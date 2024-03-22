@@ -1,5 +1,6 @@
 
 
+
 workdir="/media/linux/WORKDIR"
 
 
@@ -9,13 +10,12 @@ path = os.path.join(workdir, "data.csv")
 import pyautogui
 import time
 
-exists = None if not os.path.exists(path) else 1.
 
 
 
 
 def csv_4scatter_w(x,y):
-	
+	exists = None if not os.path.exists(path) else 1.
 	
 	with open (path, mode="a+") as data:
 		data.seek(1)
